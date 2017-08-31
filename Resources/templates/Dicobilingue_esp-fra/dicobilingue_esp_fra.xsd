@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="volume">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="article"/>
+      </xs:sequence>
+      <xs:attribute name="langue-source" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="article">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="forme"/>
+        <xs:element ref="sémantique"/>
+        <xs:element ref="remarques"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forme">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vedette"/>
+        <xs:element ref="classe-gram"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vedette" type="xs:NCName"/>
+  <xs:element name="classe-gram" type="xs:NCName"/>
+  <xs:element name="sémantique">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="sens"/>
+        <xs:element ref="expressions"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sens">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="séance"/>
+        <xs:element ref="définition"/>
+        <xs:element ref="traduction"/>
+        <xs:element ref="exemples"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="séance">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="définition" type="xs:string"/>
+  <xs:element name="traduction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="texte-traduction"/>
+        <xs:element ref="gram-traduction"/>
+      </xs:sequence>
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="texte-traduction" type="xs:string"/>
+  <xs:element name="gram-traduction" type="xs:string"/>
+  <xs:element name="exemples">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="exemple"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="exemple">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="texte-exemple"/>
+        <xs:element ref="traduction-exemple"/>
+        <xs:element ref="source"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="texte-exemple">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="traduction-exemple">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="source">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="expressions">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="remarques" type="xs:string"/>
+</xs:schema>

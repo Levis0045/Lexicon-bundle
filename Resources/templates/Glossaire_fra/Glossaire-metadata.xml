@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dictionary-metadata
+   xmlns="http://www-clips.imag.fr/geta/services/dml"
+   xmlns:d="http://www-clips.imag.fr/geta/services/dml"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www-clips.imag.fr/geta/services/dml
+   http://www-clips.imag.fr/geta/services/dml/dml.xsd"
+   category="monolingual"
+   creation-date="2017-06-13T11:47:15+02:00"
+   installation-date="2017-06-13T11:47:15+02:00"
+   last-modification-date="2017-06-29T14:51:23+02:00"
+   fullname="Glossaire"
+   name="Glossaire"
+   owner="mangeot"
+   type="monodirectional">
+ <languages>
+ <source-language d:lang="fra"/>
+ </languages>
+ <contents>vocabulaire général</contents>
+ <domain>général</domain>
+ <source>GETALP</source>
+ <authors>mangeot</authors>
+ <legal>Creative Commons, CC by SA</legal>
+ <access>public</access>
+ <comments>Glossaire</comments>
+ <administrators>
+     <user-ref name="mangeot"/>
+ </administrators>
+ <volumes>
+  <volume-metadata-ref name="Glossaire_fra" xlink:href="Glossaire_fra-metadata.xml" source-language="fra" target-languages="" />
+ </volumes>
+
+</dictionary-metadata>

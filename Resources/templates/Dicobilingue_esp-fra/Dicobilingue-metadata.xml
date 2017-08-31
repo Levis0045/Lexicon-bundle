@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dictionary-metadata
+   xmlns="http://www-clips.imag.fr/geta/services/dml"
+   xmlns:d="http://www-clips.imag.fr/geta/services/dml" 
+   xmlns:xlink="http://www.w3.org/1999/xlink" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www-clips.imag.fr/geta/services/dml
+   http://www-clips.imag.fr/geta/services/dml/dml.xsd"
+   category="bilingual" 
+   creation-date="2017-06-27T12:03:17+02:00" 
+   installation-date="2017-06-27T12:03:17+02:00" 
+   last-modification-date="2017-06-29T14:44:16+02:00" 
+   fullname="Dictionnaire bilingue"
+   name="Dicobilingue" 
+   owner="Dicobilingue" 
+   type="monodirectional"> 
+ <languages>
+ <source-language d:lang="esp"/>
+ <target-language d:lang="fra"/>
+ </languages>
+ <contents>vocabulaire général</contents>
+ <domain>général</domain> 
+ <source>GETALP</source>
+ <authors>Dicobilingue</authors>
+ <legal>Creative Commons, CC by SA</legal>
+ <access>public</access>
+ <comments>Dictionnaire</comments>
+ <administrators>
+		  <user-ref name="mangeot"/>
+		  <user-ref name="mte_project"/>
+ </administrators>
+ <volumes>
+  <volume-metadata-ref name="Dicobilingue_esp_fra" xlink:href="Dicobilingue_esp_fra-metadata.xml" source-language="esp" target-languages="fra" />
+ </volumes>
+  
+</dictionary-metadata>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Dictionary analysis report</title>
+		<style type="text/css">
+		<!--
+			body {
+				font-family: "Lucida Grande", verdana, arial, sans-serif;
+			}
+			h1, h2 {
+				font-family: arial, sans-serif;
+				text-align:center;
+				color:navy;
+			}
+			table {
+				margin: auto;
+				width:70%;
+			}
+			td.f {
+				text-align: right;
+			}
+		// -->
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Rapport d'analyse du dictionnaire</h1>
+		</header>
+		<section id="signature">
+			<h2>Signature</h2> 
+			<pre>&lt;glossaire:1 src=1≠≥1(fra:1)&gt;
+  &lt;entrée:3&gt;
+    &lt;terme:3&gt;chars:8.7;words:1;3≠2≥3(alphabet:1,Elvis Presley:1,zèbre:1)
+    &lt;définition:3&gt;chars:25.7;words:5;3≠1≥3(Chanteur très connu:1,définit les lettres d&quot;une langue:1,Équidé qui a la peau rayée:1)
+</pre>
+		</section>		<section id="elementsArray">
+			<h2>Tableau des éléments</h2>
+				<table>
+					<thead>
+						<tr><th>Nom</th><th>Fréquence</th></tr>
+					</thead>
+					<tbody>						<tr><td>définition</td><td class='f'>3</td></tr>
+						<tr><td>entrée</td><td class='f'>3</td></tr>
+						<tr><td>glossaire</td><td class='f'>1</td></tr>
+						<tr><td>terme</td><td class='f'>3</td></tr>
+					</tbody>
+				</table>
+		</section>
+		<section id="CDMElements">
+			<h2>Tableau des éléments CDM</h2>
+			<table><thead><th>Nom</th><th>XPath</th></thead>
+				<tbody>
+						<tr><td>cdm-volume</td><td>/glossaire</td></tr>
+			<tr><td>cdm-entry</td><td>/glossaire/entrée</td></tr>
+			<tr><td>cdm-entry-id</td><td>/glossaire/entrée/@id</td></tr>
+			<tr><td>cdm-headword</td><td>/glossaire/entrée/terme</td></tr>
+			<tr><td>cdm-pronunciation</td><td>/glossaire/entrée/définition</td></tr>
+			<tr><td>cdm-pos</td><td>/glossaire/entrée/terme</td></tr>
+			<tr><td>cdm-definition</td><td>/glossaire/entrée/définition</td></tr>
+			<tr><td>cdm-sense-block</td><td></td></tr>
+			<tr><td>cdm-sense</td><td></td></tr>
+			<tr><td>cdm-example-block</td><td>/glossaire/entrée</td></tr>
+			<tr><td>cdm-example</td><td>/glossaire/entrée/définition</td></tr>
+				</tbody>
+			</table>
+		</section>
+	</body>
+<volume-metadata encoding="UTF-8" hwnumber="3"
+	xmlns="http://www-clips.imag.fr/geta/services/dml" 
+	xmlns:d="http://www-clips.imag.fr/geta/services/dml">
+			<cdm-elements>
+			<cdm-volume xpath='/glossaire' />
+			<cdm-entry xpath='/glossaire/entrée' />
+			<cdm-entry-id xpath='/glossaire/entrée/@id' />
+			<cdm-headword xpath='/glossaire/entrée/terme/text()' />
+			<cdm-pronunciation xpath='/glossaire/entrée/définition/text()' />
+			<cdm-pos xpath='/glossaire/entrée/terme/text()' />
+			<cdm-definition xpath='/glossaire/entrée/définition/text()' />
+			<cdm-sense-block xpath='' />
+			<cdm-sense xpath='' />
+			<cdm-example-block xpath='/glossaire/entrée' d:lang='' />
+			<cdm-example xpath='/glossaire/entrée/définition/text()' d:lang='qaa' />
+	</cdm-elements>
+</volume-metadata>
+<template-entry>
+<glossaire src="fra">
+  <entrée>
+    <terme></terme>
+    <définition></définition>
+  </entrée>
+</glossaire>
+</template-entry>
+
+</html>

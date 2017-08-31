@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<volume xmlns:d="http://www-clips.imag.fr/geta/services/dml" langue-source="esp">
+  <article id="">
+    <forme>
+      <vedette/>
+      <classe-gram/>
+    </forme>
+    <sémantique>
+      <sens>
+        <séance/>
+        <définition/>
+        <traduction lang="fra">
+          <texte-traduction/>
+          <gram-traduction/>
+        </traduction>
+        <exemples>
+          <exemple>
+            <texte-exemple lang="esp"/>
+            <traduction-exemple lang="fra"/>
+            <source/>
+          </exemple>
+        </exemples>
+      </sens>
+      <expressions/>
+    </sémantique>
+    <remarques/>
+  </article>
+</volume>

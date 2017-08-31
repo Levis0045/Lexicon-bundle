@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+#titre-up {
+	font-size: 25pt;
+  margin-bottom: -15pt;
+}
+
+#lexiconheader {
+	margin-top: 25pt;
+}
+
+#lexiconbody {
+}
+
+.search-modal{
+  z-index: 200;
+}
+
+#body-panel{
+	padding: 2pt;
+}
+
+#registerResource {
+	margin-top: 60pt;
+	margin-left: 28%;
+  font-size: 12pt;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+ 	opacity: 1;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1010;
+}
+
+#registerResourceglob {
+  font-size: 12pt;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+ 	opacity: 0.2;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+
+}
+
+#row-search{
+	margin-left: 2pt;
+}
+
+#creer-gloss{
+	
+}	
+
+#entryAction{
+  float: right; 
+  font-size: 12pt;
+}
+
+.act{
+  cursor:pointer;
+}
+
+#list-entry{
+	margin-top: -16pt;
+	margin-bottom: -0.3pt;
+	height: 310.8pt;
+	text-overflow: overflow;
+	overflow-y: scroll;
+  font-size:14pt;
+}
+
+#content-entry{
+  
+}
+
+#entry-content{
+	height: 250pt;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+#titre-edit{
+	margin-left:10pt;
+}
+
+.page-action-btn{
+  border-radius: 200pt
+}
+
+#add_entry{
+  float:right;
+}
+
+.article{
+  margin-top:-10pt;
+  margin-left: 10pt;
+}
+
+.traitement{
+  margin-left: 15pt;
+  margin-top: 10pt;
+  font-size: 14pt;
+}
+.vedette{
+  font-weight: bold;
+  font-size: 20pt;
+}
+.class-gram{
+  font-style: italic;
+  color: gray;
+  font-size: 14pt;
+  margin-left: 14pt;
+}
+.texte-exemple-lang, .traduction-exemple-lang{
+  color: #D64A24;
+  font-style: italic;
+}
+.traduc-exemple, .exemple{
+  margin-left: 34pt;
+}
+.texte-exemple-content, .traduction-exemple-content{
+  margin-left: 10pt;
+  font-style: italic;
+}
+.définition, .traduction-group{
+    margin-left: 15pt;
+    margin-top: 10pt;
+}
+.intro{
+  margin-bottom: 20pt;
+  font-style: italic;
+  font-size: 10pt;
+}
+.texte-traduction{
+  margin-left: 10pt;
+}

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volume langue-source="esp" xmlns:d="http://www-clips.imag.fr/geta/services/dml">
+<article id="esp.boda.1">
+		<forme>
+			<vedette>boda</vedette>
+			<classe-gram>nom</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+				<séance/>
+				<définition>Casamiento y fiesta con que se celebra.</définition>
+				<traduction lang="fra">
+					<texte-traduction>mariage</texte-traduction>
+					<gram-traduction>nom</gram-traduction>
+				</traduction>
+				<exemples>
+					<exemple>
+						<texte-exemple lang="esp">No puedo recordar mi noche de bodas.</texte-exemple>
+						<traduction-exemple lang="fra"/>
+						<source/>
+					</exemple>
+				</exemples>
+			</sens>
+			<expressions>
+			</expressions>
+			</sémantique>
+			<remarques/>
+		</article>
+    
+<article id="esp.bombero.1">
+		<forme>
+			<vedette>bombero</vedette>
+			<classe-gram>nom</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+				<séance/>
+				<définition>Persona encargada de extinguir incendios y auxiliar en otro tipo de siniestros.</définition>
+				<traduction lang="fra">
+					<texte-traduction>pompier</texte-traduction>
+					<gram-traduction>nom</gram-traduction>
+				</traduction>
+				<exemples>
+					<exemple>
+						<texte-exemple lang="esp">Mi tio Bernard es bombero a Grenoble.</texte-exemple>
+						<traduction-exemple lang="fra"/>
+						<source/>
+					</exemple>
+				</exemples>
+			</sens>
+			<expressions>
+			</expressions>
+			</sémantique>
+			<remarques/>
+		</article>
+    
+<article id="esp.colilla.1">
+		<forme>
+			<vedette>colilla</vedette>
+			<classe-gram>nom</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+				<séance/>
+				<définition>Resto del cigarro que se queda sin fumar y se tira.</définition>
+				<traduction lang="fra">
+					<texte-traduction>mégot</texte-traduction>
+					<gram-traduction>nom</gram-traduction>
+				</traduction>
+				<exemples>
+					<exemple>
+						<texte-exemple lang="esp">He fumado fuera y he dejado muchas colillas por el suelo.</texte-exemple>
+						<traduction-exemple lang="fra"/>
+						<source/>
+					</exemple>
+				</exemples>
+			</sens>
+			<expressions>
+			</expressions>
+			</sémantique>
+			<remarques/>
+		</article>
+	
+<article id="esp.comer.1">	
+		<forme>
+			<vedette>comer</vedette>
+			<classe-gram>v.t.</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+			    <séance/>
+				<définition>comer alguna cosa</définition>
+				<traduction lang="fra">
+						<texte-traduction>manger</texte-traduction>
+						<gram-traduction>v.t.</gram-traduction>
+				</traduction>
+				<exemples>	
+					<exemple>
+						<texte-exemple lang="esp">Como dos manzanas verdes.</texte-exemple>
+						<traduction-exemple lang="fra">Je mange deux pommes reinette.</traduction-exemple>
+					  <source/>
+					</exemple>
+				</exemples>	
+			</sens>
+			<expressions>
+			</expressions>
+		</sémantique>
+		<remarques/>
+	</article>
+
+<article id="esp.encontrar.1">		<forme>
+			<vedette>encontrar</vedette>
+			<classe-gram>v.pr.</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+			    <séance/>
+				<définition>Estar en determinado lugar.</définition>
+				<traduction lang="fra">
+						<texte-traduction>se trouver</texte-traduction>
+						<gram-traduction>v.pr.</gram-traduction>
+				</traduction>
+				<exemples>	
+					<exemple>
+						<texte-exemple lang="esp">Ahora se encuentra en Caracas.</texte-exemple>
+						<traduction-exemple lang="fra">Il se trouve maintenant à Caracas.</traduction-exemple>
+					  <source/>
+					</exemple>
+				</exemples>	
+			</sens>
+			<expressions>
+			</expressions>
+		</sémantique>
+		<remarques/>
+	</article>
+    
+<article id="esp.escritorio.1">
+		<forme>
+			<vedette>escritorio</vedette>
+			<classe-gram>nom</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+				<séance/>
+				<définition>Mueble para guardar papeles que</définition>
+				<traduction lang="fra">
+					<texte-traduction>bureau</texte-traduction>
+					<gram-traduction>nom</gram-traduction>
+				</traduction>
+				<exemples>
+					<exemple>
+						<texte-exemple lang="esp"> generalmente</texte-exemple>
+						<traduction-exemple lang="fra"/>
+						<source/>
+					</exemple>
+				</exemples>
+			</sens>
+			<expressions>
+			</expressions>
+			</sémantique>
+			<remarques> tiene una tapa para que</remarques>
+		</article>
+<article id="esp.llevar.1">		<forme>
+			<vedette>llevar</vedette>
+			<classe-gram>v.i.</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+			    <séance/>
+				<définition>durée</définition>
+				<traduction lang="fra">
+						<texte-traduction>faire</texte-traduction>
+						<gram-traduction/>
+				</traduction>
+				<exemples>	
+					<exemple>
+						<texte-exemple lang="esp">Llevo un año estudiando breton.</texte-exemple>
+						<traduction-exemple lang="fra">Cela fait un an que j&apos;étudie le breton.</traduction-exemple>
+					  <source/>
+					</exemple>
+				</exemples>	
+			</sens>
+			<expressions>
+			</expressions>
+		</sémantique>
+		<remarques/>
+	</article>
+<article id="esp.quebrar.1">
+		<forme>
+			<vedette>quebrar</vedette>
+			<classe-gram>verbe</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+				<séance/>
+				<définition>Arruinarse una empresa o un negocio.</définition>
+				<traduction lang="fra">
+					<texte-traduction>faire faillite</texte-traduction>
+					<gram-traduction>verbe</gram-traduction>
+				</traduction>
+				<exemples>
+					<exemple>
+						<texte-exemple lang="esp">El Carrefour City de Chambéry había quebrado.</texte-exemple>
+						<traduction-exemple lang="fra"/>
+						<source/>
+					</exemple>
+				</exemples>
+			</sens>
+			<expressions>
+			</expressions>
+			</sémantique>
+			<remarques> la empresa quebró.&quot;</remarques>
+		</article>
+<article id="esp.reloj.1">		<forme>
+			<vedette>reloj</vedette>
+			<classe-gram>n.m.</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+			    <séance/>
+				<définition>Indica la hora.</définition>
+				<traduction lang="fra">
+						<texte-traduction>horloge</texte-traduction>
+						<gram-traduction>n.f.</gram-traduction>
+				</traduction>
+				<exemples>	
+					<exemple>
+						<texte-exemple lang="esp">Mi reloj se quebró ayer.</texte-exemple>
+						<traduction-exemple lang="fra">Ma montre s&apos;est cassée hier.</traduction-exemple>
+					  <source/>
+					</exemple>
+				</exemples>	
+			</sens>
+			<expressions>
+			</expressions>
+		</sémantique>
+		<remarques/>
+	</article>
+<article id="esp.tío.1">		<forme>
+			<vedette>tío</vedette>
+			<classe-gram>n.m.</classe-gram>
+		</forme>
+		<sémantique>
+			<sens>
+			    <séance/>
+				<définition>Respecto de una persona, hermano de su padre o madre.</définition>
+				<traduction lang="fra">
+						<texte-traduction>oncle, m</texte-traduction>
+						<gram-traduction>n.m.</gram-traduction>
+				</traduction>
+				<exemples>	
+					<exemple>
+						<texte-exemple lang="esp">Mi tio Bernard vive en Doula.</texte-exemple>
+						<traduction-exemple lang="fra">Mon oncle Bernard vit à Douala.</traduction-exemple>
+					  <source/>
+					</exemple>
+				</exemples>	
+			</sens>
+			<sens>
+			    <séance/>
+				<définition>Persona.</définition>
+				<traduction lang="fra">
+						<texte-traduction>mec, m</texte-traduction>
+						<gram-traduction>n.m.</gram-traduction>
+				</traduction>
+				<exemples>	
+					<exemple>
+						<texte-exemple lang="esp">¡Mira este tío!</texte-exemple>
+						<traduction-exemple lang="fra">Regarde ce mec !</traduction-exemple>
+					  <source/>
+					</exemple>
+				</exemples>	
+			</sens>
+			<expressions>
+			</expressions>
+		</sémantique>
+		<remarques/>
+	</article>
+</volume>

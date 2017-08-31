@@ -1,0 +1,7 @@
+plugin:
+  has_options: true
+  tools:
+    - name: claroline_lexicon
+      is_displayable_in_workspace: false
+      is_displayable_in_desktop: true
+      class: language

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<volume-metadata
+   xmlns="http://www-clips.imag.fr/geta/services/dml" 
+   xmlns:d="http://www-clips.imag.fr/geta/services/dml"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www-clips.imag.fr/geta/services/dml
+   http://www-clips.imag.fr/geta/services/dml/dml.xsd"
+   location="local"
+   creation-date="2017-06-27T12:22:04+02:00" 
+   installation-date="2017-06-27T12:22:04+02:00" 
+   last-modification-date="2017-06-27T12:22:55+02:00" 
+   hw-number="10" 
+   encoding="UTF-8" 
+   format="xml" 
+   name="Dicobilingue_esp_fra"
+   dbname="dicobilingueespfra" 
+   version="1"
+   source-language="esp"
+   target-languages="fra"
+   reverse-lookup="false">
+ <authors>Dicobilingue</authors>
+ <comments></comments>
+ <cdm-elements>
+  <cdm-volume xpath="/volume"/>
+<cdm-entry xpath="/volume/article"/>
+<cdm-entry-id xpath="/volume/article/@id"/>
+<cdm-headword xpath="/volume/article/forme/vedette/text()"/>
+<cdm-pos xpath="/volume/article/forme/classe-gram/text()"/>
+<cdm-definition xpath="/volume/article/sémantique/sens/définition/text()"/>
+<cdm-sense-block xpath="/volume/article/sémantique"/>
+<cdm-sense xpath="/volume/article/sémantique/sens"/>
+<cdm-example-block xpath="/volume/article/sémantique/sens/exemples/exemple"/>
+<cdm-example xpath="/volume/article/sémantique/sens/exemples/exemple/texte-exemple/text()" d:lang="esp" />
+  <cdm-example xpath="/volume/article/sémantique/sens/exemples/exemple/traduction-exemple[@lang='fra']/text()" d:lang="fra" />
+  <links>
+  </links>
+	</cdm-elements>
+<administrators>
+		  <user-ref name="mangeot"/>
+		  <user-ref name="elvis"/>
+ </administrators>
+ <volume-ref xlink:href="dicobilingue_esp_fra.xml" source-language="esp"/>
+ <xmlschema-ref xlink:href="dicobilingue_esp_fra.xsd"/>
+<template-entry-ref xlink:href="dicobilingue_esp_fra-template.xml"/>
+<xsl-stylesheet name="Dicobilingue_esp_fra" default="true" xlink:href="Dicobilingue_esp_fra-view.xsl"/>
+ 	</volume-metadata>
