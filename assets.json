@@ -1,0 +1,8 @@
+{
+  "webpack": {
+    "entry": {
+      "home": "home/index",
+      "content": "content/index"
+    }
+  }
+}
