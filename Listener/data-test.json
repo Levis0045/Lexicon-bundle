@@ -1,0 +1,350 @@
+
+object(SimpleXMLElement)#15791 (11) 
+{ 
+   ["@attributes"]=> array(8) { 
+      ["category"]=> string(11) "monolingual" 
+      ["creation-date"]=> string(25) "2017-06-13T11:47:15+02:00" 
+      ["fullname"]=> string(9) "Glossaire" 
+      ["installation-date"]=> string(25) "2017-06-13T11:47:15+02:00" 
+      ["last-modification-date"]=> string(25) "2017-06-13T11:47:51+02:00" 
+      ["name"]=> string(9) "Glossaire" 
+      ["owner"]=> string(7) "mangeot" 
+      ["type"]=> string(15) "monodirectional" 
+   } 
+   ["languages"]=> object(SimpleXMLElement)#21583 (1) { 
+      ["source-language"]=> object(SimpleXMLElement)#20425 (0) { } } 
+   ["contents"]=> string(21) "vocabulaire général" 
+   ["domain"]=> string(9) "général" 
+   ["source"]=> string(6) "GETALP" 
+   ["authors"]=> string(7) "mangeot" 
+   ["legal"]=> string(26) "Creative Commons, CC by SA" 
+   ["access"]=> string(6) "public" 
+   ["comments"]=> object(SimpleXMLElement)#15194 (0) { } 
+   ["administrators"]=> object(SimpleXMLElement)#14512 (1) { 
+      ["user-ref"]=> object(SimpleXMLElement)#20425 (1) { 
+         ["@attributes"]=> array(1) { 
+            ["name"]=> string(7) "mangeot" } } } 
+   ["volumes"]=> object(SimpleXMLElement)#24221 (1) { 
+      ["volume-metadata-ref"]=> object(SimpleXMLElement)#20425 (1) { 
+         ["@attributes"]=> array(3) { ["name"]=> string(13) "Glossaire_fra" 
+         ["source-language"]=> string(3) "fra" 
+         ["target-languages"]=> string(0) "" } } } 
+} object(SimpleXMLElement)#16675 (0) { }
+
+------------------------------------------------------------------------------------------------------------------------
+
+{  
+    [  
+        "user-ref"
+    ]    => object(SimpleXMLElement)#668 (1)    {  
+        [  
+            "@attributes"
+        ]        => array(1)        {  
+            [  
+                "name"
+            ]       => string(7) "mangeot"
+        }
+    }
+}NULLobject(SimpleXMLElement)#670 (1){  
+    [  
+        "user-ref"
+    ]    => object(SimpleXMLElement)#685 (1)    {  
+        [  
+            "@attributes"
+        ]        => array(1)        {  
+            [  
+                "name"
+            ]       => string(7) "mangeot"
+        }
+    }
+}NULLarray(1){  
+    [  
+        0
+    ]    => string(0) ""
+}
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+{  
+    "totalResults":5,
+    "questions":[  
+        {  
+            "random":false,
+            "multiple":false,
+            "choices":[  
+                {  
+                    "type":"text\/html",
+                    "data":"le lexique",
+                    "id":"b6a240e4-9db1-4b6d-b818-319e3389b658"
+                }
+            ],
+            "solutions":[  
+                {  
+                    "id":"b6a240e4-9db1-4b6d-b818-319e3389b658",
+                    "score":0
+                }
+                
+            ],
+            "id":"74de4d6f-f000-45bd-9ef6-548b9aa934a2",
+            "type":"Dictionnaire",
+            "content":"Quel est lobjet de la lexicographie ?",
+            "title":"",
+            "meta":{  
+                "authors":[  
+                    {  
+                        "id":"3",
+                        "name":"MBONING Elvis",
+                        "email":"juslestawo@yahoo.fr"
+                    }
+                ],
+                "created":"2017-05-30T12:10:15",
+                "updated":"2017-05-30T12:25:44",
+                "model":false,
+                "usedBy":[  
+                    "05dda38f-8669-48e4-8314-90f3d8db328d"
+                ],
+                "sharedWith":[  
+                    {  
+                        "adminRights":false,
+                        "user":{  
+                            "id":"1",
+                            "name":"MBONING Elvis",
+                            "email":"julestawo@yahoo.fr"
+                        }
+                    }
+                ]
+            },
+            "score":{  
+                "type":"sum"
+            },
+            "description":"",
+            "hints":[  
+
+            ],
+            "objects":[  
+
+            ],
+            "resources":[  
+
+            ]
+        }
+    ],
+    "pagination":{  
+        "current":0,
+        "pageSize":-1
+     },
+    "sortBy":{  
+
+    }
+}
+
+#-------------------------------------------------------------------------------------
+
+{  
+    "totalResults":5,
+    "questions":[  
+        {  
+            "random":false,
+            "multiple":false,
+            "choices":[  ],
+            "solutions":[  ],
+            "id":"74de4d6f-f000-45bd-9ef6-548b9aa934a2",
+            "type":"Dictionnaire",
+            "content":"Quel est lobjet de la lexicographie ?",
+            "title":"",
+            "meta":{  
+                "authors":[  
+                    {  
+                        "id":"3",
+                        "name":"MBONING Elvis",
+                        "email":"juslestawo@yahoo.fr"
+                    }
+                ],
+                "created":"2017-05-30T12:10:15",
+                "updated":"2017-05-30T12:25:44",
+                "model":false,
+                "usedBy":[  
+                    "05dda38f-8669-48e4-8314-90f3d8db328d"
+                ],
+                "sharedWith":[  
+                    {  
+                        "adminRights":false,
+                        "user":{  
+                            "id":"1",
+                            "name":"MBONING Elvis",
+                            "email":"julestawo@yahoo.fr"
+                        }
+                    }
+                ]
+            },
+            "score":{  },
+            "description":"",
+            "hints":[  ],
+            "objects":[  ],
+            "resources":[  ]
+        },
+        {  },
+        {  },
+        {  },
+        {  }
+    ],
+    "pagination":{  
+        "current":0,
+        "pageSize":-1
+    },
+    "sortBy":{  }
+}
+
+
+
+
+-----------------------------------------------------------------------------------
+
+{  
+    [  
+        "id":protected
+    ]    => NULL    [  
+        "firstName":protected
+    ]    => NULL    [  
+        "lastName":protected
+    ]    => NULL    [  
+        "username":protected
+    ]    => NULL    [  
+        "password":protected
+    ]    => NULL    [  
+        "locale":protected
+    ]    => NULL    [  
+        "salt":protected
+    ]    => string(31) "bg4wo6yjepkw8g4skwwk0coocw0gk8k"    [  
+        "plainPassword":protected
+    ]    => NULL    [  
+        "phone":protected
+    ]    => NULL    [  
+        "mail":protected
+    ]    => NULL    [  
+        "guid":protected
+    ]    => NULL    [  
+        "administrativeCode":protected
+    ]    => NULL    [  
+        "groups":protected
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22366 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }    [  
+        "roles":protected
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22365 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }    [  
+        "resourceNodes":protected
+    ]    => NULL    [  
+        "personalWorkspace":protected
+    ]    => NULL    [  
+        "created":protected
+    ]    => NULL    [  
+        "initDate":protected
+    ]    => NULL    [  
+        "orderedTools":protected
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22344 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }    [  
+        "resetPasswordHash":protected
+    ]    => NULL    [  
+        "hashTime":protected
+    ]    => NULL    [  
+        "picture":protected
+    ]    => NULL    [  
+        "pictureFile":protected
+    ]    => NULL    [  
+        "description":protected
+    ]    => NULL    [  
+        "hasAcceptedTerms":protected
+    ]    => NULL    [  
+        "isEnabled":protected
+    ]    => bool(true)    [  
+        "isRemoved":protected
+    ]    => bool(false)    [  
+        "isMailNotified":protected
+    ]    => bool(true)    [  
+        "isMailValidated":protected
+    ]    => bool(false)    [  
+        "hideMailWarning":protected
+    ]    => bool(false)    [  
+        "lastUri":protected
+    ]    => NULL    [  
+        "publicUrl":protected
+    ]    => NULL    [  
+        "hasTunedPublicUrl":protected
+    ]    => bool(false)    [  
+        "expirationDate":protected
+    ]    => NULL    [  
+        "fieldsFacetValue":protected
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22345 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }    [  
+        "models":protected
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22346 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }    [  
+        "authentication":protected
+    ]    => NULL    [  
+        "options":protected
+    ]    => NULL    [  
+        "emailValidationHash":protected
+    ]    => NULL    [  
+        "organizations":protected
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22347 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }    [  
+        "events":protected
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22348 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }    [  
+        "administratedOrganizations":protected
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22349 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }    [  
+        "rolesStringAsArray":protected
+    ]    => array(0)    {  
+
+    }    [  
+        "abstractResources"
+    ]    => object(Doctrine\Common\Collections\ArrayCollection)#22343 (1)    {  
+        [  
+            "elements":            "Doctrine\Common\Collections\ArrayCollection":private
+        ]        => array(0)        {  
+
+        }
+    }
+}
