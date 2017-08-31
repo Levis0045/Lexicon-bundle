@@ -1,0 +1,4 @@
+Début de l'analyse du dictionnaire /data/ipolex/Dicobilingue_esp-fra/dicobilingue_esp_fra.xml
+Fin de l'analyse du dictionnaire
+Début de l'écriture du résultat
+Fin de l'écriture du résultat

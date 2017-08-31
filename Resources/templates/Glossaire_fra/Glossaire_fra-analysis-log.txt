@@ -1,0 +1,9 @@
+Début de l'analyse du dictionnaire /data/ipolex/Glossaire_fra/glossaire_fra.xml
+Fin de l'analyse du dictionnaire
+Début de l'écriture du résultat
+Use of uninitialized value $senseXpath in substitution (s///) at /var/www/totoro.imag.fr-ssl/intranet/ipolex/pl/dictionary_analysis.pl line 733.
+Use of uninitialized value $sense_block in concatenation (.) or string at /var/www/totoro.imag.fr-ssl/intranet/ipolex/pl/dictionary_analysis.pl line 164.
+Use of uninitialized value in concatenation (.) or string at /var/www/totoro.imag.fr-ssl/intranet/ipolex/pl/dictionary_analysis.pl line 165.
+Use of uninitialized value $sense_block in concatenation (.) or string at /var/www/totoro.imag.fr-ssl/intranet/ipolex/pl/dictionary_analysis.pl line 200.
+Use of uninitialized value in concatenation (.) or string at /var/www/totoro.imag.fr-ssl/intranet/ipolex/pl/dictionary_analysis.pl line 201.
+Fin de l'écriture du résultat

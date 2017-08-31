@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<volume-metadata
+   xmlns="http://www-clips.imag.fr/geta/services/dml" 
+   xmlns:d="http://www-clips.imag.fr/geta/services/dml"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www-clips.imag.fr/geta/services/dml
+   http://www-clips.imag.fr/geta/services/dml/dml.xsd"
+   location="local"
+   creation-date="2017-06-13T11:50:23+02:00" 
+   installation-date="2017-06-13T11:50:23+02:00" 
+   last-modification-date="2017-06-13T11:50:48+02:00" 
+   hw-number="3" 
+   encoding="UTF-8" 
+   format="xml" 
+   name="Glossaire_fra"
+   dbname="glossairefra" 
+   version="1"
+   source-language="fra"
+   target-languages=""
+   reverse-lookup="false">
+ <authors>mangeot</authors>
+ <comments></comments>
+ <cdm-elements>
+  <cdm-volume xpath="/glossaire"/>
+<cdm-entry xpath="/glossaire/entrée"/>
+<cdm-entry-id xpath="/glossaire/entrée/@id"/>
+<cdm-headword xpath="/glossaire/entrée/terme/text()"/>
+<cdm-definition xpath="/glossaire/entrée/définition/text()"/>
+<links>
+  </links>
+	</cdm-elements>
+<administrators>
+		  <user-ref name="mangeot"/>
+ </administrators>
+ <volume-ref xlink:href="glossaire_fra.xml" source-language="fra"/>
+ <xmlschema-ref xlink:href="glossaire_fra.xsd"/>
+<template-entry-ref xlink:href="glossaire_fra-template.xml"/>
+<xsl-stylesheet name="Glossaire_fra" default="true" xlink:href="Glossaire_fra-view.xsl"/>
+ 	</volume-metadata>

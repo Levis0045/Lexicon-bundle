@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<glossaire src="fra">
+	<entrée>
+		<terme>alphabet</terme>
+		<définition>définit les lettres d'une langue</définition>
+	</entrée>
+	<entrée>
+		<terme>Elvis Presley</terme>
+		<définition>Chanteur très connu</définition>
+	</entrée>
+	<entrée>
+		<terme>zèbre</terme>
+		<définition>Équidé qui a la peau rayée</définition>
+	</entrée>
+</glossaire>
